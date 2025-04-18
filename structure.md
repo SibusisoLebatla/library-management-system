@@ -20,18 +20,4 @@ GUIFactory <|-- MacFactory
 WindowsFactory --> WindowsButton
 MacFactory --> MacOSButton
 
----
 
-## ✅ Submission Checklist ✅
-
-| ✅ Task | Status |
-|--------|--------|
-| `/src` with class diagram code | ✅ |
-| `/creational_patterns` folder | ✅ |
-| `/tests` with unit tests | ✅ |
-| `README.md` with rationales | ✅ |
-| `CHANGELOG.md` | ✅ |
-| GitHub Issues / Project Board updated | ✅ |
-| Mermaid diagram for overview | ✅ |
-
----
