@@ -1,4 +1,16 @@
 ```markdown
+# Changelog- Assigment 12
+
+
+### Added
+- RESTful API endpoints under `/api/books`
+- Integration tests for all endpoints
+- OpenAPI schema exported to `/docs/openapi_schema.json`
+- FastAPI Swagger UI for API documentation
+
+### Fixed
+- Book update now returns updated data
+- Proper error messages for book not found or already checked out
 # Changelog – Assignment 10
 
 
