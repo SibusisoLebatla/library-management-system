@@ -1,3 +1,65 @@
+# 📚 Assignment 12 – Service-Oriented Library API
+
+This project is a layered, testable, RESTful system for managing books in a library. It includes a domain model, in-memory repository, service layer, REST API, unit tests, integration tests, and OpenAPI documentation.
+
+---
+
+## ✅ Architecture Overview
+
+### 1. **Domain Model**
+- Defined in `/src/book.py`
+- Represents a Book with ID, title, and checkout state.
+
+### 2. **Repository Layer**
+- Generic interface in `/repositories/base_repository.py`
+- Specific interface for books: `/repositories/book_repository.py`
+- In-memory implementation: `/repositories/inmemory/in_memory_book_repository.py`
+- Placeholder for future database: `/repositories/database/database_book_repository.py`
+
+### 3. **Factory Pattern**
+- `/factories/repository_factory.py` selects the appropriate repository based on config.
+
+### 4. **Service Layer**
+- `/services/book_service.py` contains business logic like checkout, create, update.
+- Includes exceptions like `BookNotFoundException`.
+
+### 5. **API Layer** (Next Step)
+- RESTful endpoints using FastAPI (upcoming).
+- Sample endpoints:
+  - `GET /api/books` - list all books
+  - `POST /api/books` - create new book
+  - `PUT /api/books/{id}` - update book
+  - `POST /api/books/{id}/checkout` - check out book
+
+### 6. **Testing**
+- Unit tests in `/tests/`
+  - Repository: `test_in_memory_book_repository.py`
+  - Services: `tests/services/test_book_service.py`
+- Integration API tests: `/tests/api/test_book_api.py` (next)
+
+### 7. **Documentation**
+- Mermaid class diagram in `/docs/class_diagram.md`
+- Swagger UI auto-generated via FastAPI at `/docs`
+- Optional OpenAPI export in `/docs/openapi_schema.json`
+
+---
+
+## ✅ Setup Instructions
+
+### 📦 Requirements
+- Python 3.10+
+- FastAPI
+- pytest
+
+### 🔧 Run Unit Tests
+
+```bash
+pytest tests/
+
+
+
+
+
 # 📘 Assignment 11 – Repository Pattern & Persistence Abstraction
 This assignment builds on top of Assignment 10 by introducing a Repository Layer to cleanly separate persistence logic from business logic. The solution uses the Repository Pattern, an in-memory implementation, a factory-based abstraction, and is structured to allow future extension with other storage backends (e.g., database, file system).
 
