@@ -1,3 +1,18 @@
+# 📚 Assignment 13- Implementing CI/CD with
+GitHub Actions
+## ✅ CI/CD Pipeline (GitHub Actions)
+
+### 💡 How it Works
+- **Triggers on**: Every push and PR to `main`
+- **Runs**: Unit tests and integration tests
+- **Blocks**: Merges to `main` if tests fail
+- **Builds**: Artifact on successful merge to `main`
+
+### 🔧 Running Tests Locally
+
+
+
+
 # 📚 Assignment 12 – Service-Oriented Library API
 
 This project is a layered, testable, RESTful system for managing books in a library. It includes a domain model, in-memory repository, service layer, REST API, unit tests, integration tests, and OpenAPI documentation.
