@@ -30,3 +30,5 @@ Branch protection helps maintain the **integrity** of the codebase and prevent b
 - **Quality Control**: Ensures all code is reviewed and tested.
 - **Security**: Prevents accidental or malicious code from going live.
 - **Team Collaboration**: Encourages team review and shared ownership of the code.
+![image](https://github.com/user-attachments/assets/13de275f-939e-47cf-b58e-96bb34f68bdb)
+
