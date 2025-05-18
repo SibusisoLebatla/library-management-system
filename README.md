@@ -1,3 +1,10 @@
+# 📚 Assignment 14-  Peer Review, Onboarding,
+and Open-Source Collaboration
+## 🚀 Getting Started
+
+### Clone and Install
+git clone https://github.com/SibusisoLebatla/library-management-system
+
 # 📚 Assignment 13- Implementing CI/CD with
 GitHub Actions
 ## ✅ CI/CD Pipeline (GitHub Actions)
