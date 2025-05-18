@@ -1,6 +1,19 @@
 # 📚 Assignment 14-  Peer Review, Onboarding,
 and Open-Source Collaboration
 ## 🚀 Getting Started
+This project was prepared for open-source collaboration as part of Assignment 14. The following enhancements were completed:
+
+✅ **CONTRIBUTING.md** – Provides setup, coding standards, and how to submit PRs  
+✅ **Labeled Issues** – 
+- `good-first-issue` (5+ beginner-friendly tasks)  
+- `feature-request` (3+ ideas for improvement)  
+✅ **ROADMAP.md** – Future features like Redis caching, pagination, and authentication  
+✅ **README.md** – Improved with setup, CI/CD, contribution guide, feature table  
+✅ **LICENSE** – Open-source license added (MIT)  
+✅ **Peer Sharing** – Repository shared with classmates for stars/forks and feedback  
+✅ **Reflection** – Written reflection in `REFLECTION.md` about the collaboration experience  
+✅ **VOTING_RESULTS.md** – Will track GitHub stars and forks from classmates
+
 
 ### Clone and Install
 git clone https://github.com/SibusisoLebatla/library-management-system
